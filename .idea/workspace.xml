@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade5d2c5-fb56-40ee-86cf-93ad48da98c4" name="Default Changelist" comment="" />
+    <list default="true" id="ade5d2c5-fb56-40ee-86cf-93ad48da98c4" name="Default Changelist" comment="Added initial script examples">
+      <change afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/account-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/collection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1skH8Mo6OyxvcIlu3mMpyHS0MF5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -17,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.20.13" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.20.14" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -25,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -42,10 +57,28 @@
       <workItem from="1622090664900" duration="8000" />
       <workItem from="1622180682925" duration="20076000" />
       <workItem from="1622438494557" duration="5536000" />
+      <workItem from="1622634593421" duration="574000" />
+      <workItem from="1622676260062" duration="2419000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add script files" />
+    <MESSAGE value="Added initial script examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added initial script examples" />
   </component>
 </project>
