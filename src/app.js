@@ -5,20 +5,18 @@ const Upload = require('./modules/upload')
 const Transformer = require('./modules/transform')
 
 
-
-Collection.getCollection(AccountDetails.collectionId)
-
 Upload.readJSONFile(AccountDetails.filename)
     .then(rec => transformData(rec))
     .catch(err => console.error(err))
 
 
 function transformData(records) {
-
     // Setup schema
     let schema = []
     schema.push(new Schema.Field("id"))
     schema.push(new Schema.Field("name", "title"))
+    new Schema.Field("price", "price", Type.DOUBLE, false, Mode.NULLABLE)
+
     let priceField = new Schema.Field("price", "price", Schema.Type.DOUBLE)
     priceField.transform = (value) => {
         return value.replace("$", "")
@@ -27,5 +25,7 @@ function transformData(records) {
 
     let newRecords = Transformer.transformRecords(records, schema)
     console.log(newRecords)
+
+
 }
 
